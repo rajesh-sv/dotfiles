@@ -1,0 +1,12 @@
+[mgr]
+ratio = [1, 2, 3]
+sort_by = "natural"
+linemode = "size"
+show_hidden = true
+
+[preview]
+tab_size = 4
+
+[tasks]
+image_bound = [0, 0]
+

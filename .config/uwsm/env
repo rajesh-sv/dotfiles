@@ -1,0 +1,10 @@
+export XCURSOR_SIZE="24"
+export HYPRCURSOR_SIZE="24"
+export LIBVA_DRIVER_NAME="nvidia"
+export __GLX_VENDOR_LIBRARY_NAME="nvidia"
+export NVD_BACKEND="direct"
+export MOZ_DISABLE_RDD_SANDBOX="1"
+export ELECTRON_OZONE_PLATFORM_HINT="auto"
+
+export EDITOR="nvim"
+

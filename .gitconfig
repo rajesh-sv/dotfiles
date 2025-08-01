@@ -1,0 +1,7 @@
+[user]
+	name = rajesh-sv
+	email = 125382031+rajesh-sv@users.noreply.github.com
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim

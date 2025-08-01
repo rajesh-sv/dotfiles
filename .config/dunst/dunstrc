@@ -1,0 +1,80 @@
+[global]
+follow = mouse
+enable_posix_regex = true
+width = 300
+origin = top-right
+offset = (10,10)
+scale = 0
+notification_limit = 20
+progress_bar = true
+progress_bar_height = 10
+progress_bar_frame_width = 0
+progress_bar_min_width = 125
+progress_bar_max_width = 250
+progress_bar_corner_radius = 4
+indicate_hidden = yes
+transparency = 10
+separator_height = 2
+padding = 8
+horizontal_padding = 8
+text_icon_padding = 10
+frame_width = 2
+gap_size = 5
+separator_color = auto
+sort = yes
+line_height = 3
+markup = full
+format = "<b><span>%s</span></b>\n%b"
+alignment = left
+vertical_alignment = center
+show_age_threshold = 60
+ellipsize = middle
+ignore_newline = no
+stack_duplicates = true
+hide_duplicate_count = false
+show_indicators = yes
+enable_recursive_icon_lookup = true
+icon_position = left
+min_icon_size = 64
+max_icon_size = 128
+sticky_history = yes
+history_length = 20
+browser = /usr/bin/xdg-open
+always_run_script = true
+title = Dunst
+class = Dunst
+ignore_dbusclose = false
+force_xwayland = false
+force_xinerama = false
+mouse_left_click = context, close_current
+mouse_middle_click = do_action, close_current
+mouse_right_click = close_all
+corner_radius = 10
+inner_corner_radius = 10
+background = "#26233ae6"
+foreground = "#e0def4e6"
+font = Cantarell 12
+dmenu = /usr/bin/rofi -config notification -dmenu -p dunst:
+# icon_theme = "rose-pine-icons"
+
+[urgency_low]
+background = "#26273de6"
+foreground = "#31748fe6"
+frame_color = "#31748fe6"
+default_icon = "dialog-information"
+timeout = 3
+
+[urgency_normal]
+background = "#362e3ce6"
+foreground = "#f6c177"
+frame_color = "#f6c177e6"
+default_icon = "dialog-warning"
+timeout = 5
+
+[urgency_critical]
+background = "#35263de6"
+foreground = "#eb6f92e6"
+frame_color = "#eb6f92e6"
+default_icon = "dialog-error"
+timeout = 0
+
