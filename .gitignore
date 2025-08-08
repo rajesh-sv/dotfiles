@@ -1,6 +1,8 @@
 hdd
+qmk_firmware/
 .cache/
 .local/
+.m2/
 .pki/
 .ssh/
 .zsh_history
